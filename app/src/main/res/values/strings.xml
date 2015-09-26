@@ -1,0 +1,132 @@
+<resources>
+    <string name="app_name">WesFix</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_splash_screen">SplashScreen</string>
+    <string name="wesfixDescription">This app allows you to report problems around Wesleyan University\'s campus to Physical Plant. Please put in your wes username, leave out \'\'at wesleyan.edu\'\', then report the problem.</string>
+    <string name="reportProblem">Report a problem</string>
+
+    <string name="building_prompt">-- Choose a Building or Street --</string>
+
+    <string-array name="buildingList">
+        <item>-- Choose a Building or Street --</item>
+        <item>Admissions/Reid House</item>
+        <item>Allbritton</item>
+        <item>Alpha Delt</item>
+        <item>Anthropology/Winchester House</item>
+        <item>Asian/Asian-American House</item>
+        <item>Bennett Hall</item>
+        <item>Boat House</item>
+        <item>Brainerd Avenue</item>
+        <item>Broad Street Books</item>
+        <item>Buddhist House</item>
+        <item>Butterfield A</item>
+        <item>Butterfield B</item>
+        <item>Butterfield C</item>
+        <item>Cady Building</item>
+        <item>Center for African American Studies</item>
+        <item>Center for the Americas</item>
+        <item>Center for Film Studies</item>
+        <item>Center for Humanities</item>
+        <item>CFA Art Workshop</item>
+        <item>CFA Crowell Concert Hall</item>
+        <item>CFA Hall</item>
+        <item>CFA Theater</item>
+        <item>CFA World Music Hall</item>
+        <item>CFA Music Studios</item>
+        <item>CFA Rehearsal Hall</item>
+        <item>CFA Zilka Gallery</item>
+        <item>Chinese House</item>
+        <item>Church Street</item>
+        <item>Cinema Archives</item>
+        <item>College of the Environment</item>
+        <item>College Street</item>
+        <item>Community Service House</item>
+        <item>Clark Hall</item>
+        <item>Cross Street</item>
+        <item>Cross Street Archaeology Laboratory</item>
+        <item>Davison Art Center</item>
+        <item>Davison Health Center</item>
+        <item>Downey House</item>
+        <item>Earth House</item>
+        <item>Eclectic Society</item>
+        <item>English</item>
+        <item>Exley Science Center</item>
+        <item>Farm House</item>
+        <item>Fauver Apartments</item>
+        <item>Fayerweather</item>
+        <item>Fisk Hall</item>
+        <item>Fountain Avenue</item>
+        <item>Freeman Athletic Center</item>
+        <item>German House</item>
+        <item>GLSP</item>
+        <item>Greenhouse</item>
+        <item>Green Street Arts Center</item>
+        <item>Hall Atwater</item>
+        <item>Hewitt</item>
+        <item>High Rise</item>
+        <item>High Street</item>
+        <item>Home Avenue</item>
+        <item>Horgan House</item>
+        <item>Human Resources</item>
+        <item>International House</item>
+        <item>John Wood Tennis Courts</item>
+        <item>Judd Hall</item>
+        <item>Knowles Avenue</item>
+        <item>La Casa</item>
+        <item>Lawn Avenue</item>
+        <item>Pine Street Laundry</item>
+        <item>Low Rise A</item>
+        <item>Low Rise B</item>
+        <item>Low Rise C</item>
+        <item>Low Rise D</item>
+        <item>Low Rise E</item>
+        <item>Maintenance Garage Long Lane</item>
+        <item>Malcom X House</item>
+        <item>Mansfield Freeman East Asian Studies</item>
+        <item>Memorial Chapel</item>
+        <item>Miles Avenue</item>
+        <item>Music House</item>
+        <item>Neighborhood Preschool</item>
+        <item>Nicolson</item>
+        <item>North College</item>
+        <item>Olin Library</item>
+        <item>Open House</item>
+        <item>PAC/Harriman Hall</item>
+        <item>Patricelli 92 Theater</item>
+        <item>Pearl Street</item>
+        <item>Pine Street</item>
+        <item>President\'\s House</item>
+        <item>Public Safety</item>
+        <item>Religious Studies</item>
+        <item>Romance Languages</item>
+        <item>Russell House</item>
+        <item>Russian Haus</item>
+        <item>Schoenberg Dance Studio</item>
+        <item>Shanklin Lab</item>
+        <item>Sign House</item>
+        <item>South College</item>
+        <item>Summerfields</item>
+        <item>Turath House</item>
+        <item>Usdan University Center</item>
+        <item>Van Vleck Observatory</item>
+        <item>Vine Street</item>
+        <item>Warren Street</item>
+        <item>Wasch Center for Retired Faculty</item>
+        <item>Washington Street Apartment</item>
+        <item>Well-Being House</item>
+        <item>Westco</item>
+        <item>Weswings</item>
+        <item>Womanist House</item>
+        <item>Woman of Color</item>
+        <item>Writer\'\s Block (156 High)</item>
+        <item>WSA</item>
+        <item>Zelnick Pavilion</item>
+    </string-array>
+    <string name="title_activity_thanks">ThanksActivity</string>
+    <string name="thanksSent">Your message was sent</string>
+    <string name="thanksDesc">Thanks!. Your message was successfully sent! Thank you for contacting Physical Plant, we will work on your work order as soon as possible!</string>
+    <string name="thanksCredits">Credits: Jason Wangsadinata, Alex Garcia, Chris Christie and Kevin Kane</string>
+
+</resources>

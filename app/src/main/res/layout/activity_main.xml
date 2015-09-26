@@ -1,0 +1,126 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#e74c3c"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-thin"
+        android:text="@string/reportProblem"
+        android:textColor="#ffffff"
+        android:textSize="33sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="1dp"
+        android:fontFamily="sans-serif-light"
+        android:text="@string/wesfixDescription"
+        android:textColor="#ffffff"
+        android:textSize="13sp" />
+
+    <Spinner
+        android:id="@+id/etBuilding"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:entries="@array/buildingList"
+        android:prompt="@string/building_prompt" />
+
+    <EditText
+        android:id="@+id/etName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-light"
+        android:hint="Username"
+        android:maxLength="20"
+        android:maxLines="1"
+        android:scrollHorizontally="false"
+        android:textColor="#e7ffffff"
+        android:textColorHint="#b3ffffff" />
+
+    <EditText
+        android:id="@+id/etRoom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-light"
+        android:hint="Room Number"
+        android:maxLength="20"
+        android:maxLines="1"
+        android:scrollHorizontally="false"
+        android:textColor="#e7ffffff"
+        android:textColorHint="#b3ffffff" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-light"
+        android:text="Woodframes Only (i.e. Pine Street, etc)"
+        android:textColor="#ffffff"
+        android:textSize="10sp" />
+
+    <EditText
+        android:id="@+id/etHouseNum"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-light"
+        android:hint="House Number"
+        android:maxLength="20"
+        android:maxLines="1"
+        android:scrollHorizontally="false"
+        android:textColor="#e7ffffff"
+        android:textColorHint="#b3ffffff" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-light"
+        android:text="What's Wrong?"
+        android:textColor="#ffffff"
+        android:textSize="10sp" />
+
+    <EditText
+        android:id="@+id/etDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-light"
+        android:hint="Type description here"
+        android:inputType="textCapSentences|textMultiLine"
+        android:maxLength="2000"
+        android:maxLines="6"
+        android:scrollHorizontally="false"
+        android:textColor="#e7ffffff"
+        android:textColorHint="#b3ffffff">
+
+        <requestFocus />
+
+    </EditText>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_weight="1"
+        android:gravity="center|bottom"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btnSubmit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal|center"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:text="Submit" />
+
+    </LinearLayout>
+
+</LinearLayout>
+
+
